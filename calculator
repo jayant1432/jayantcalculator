@@ -1,0 +1,20 @@
+#calculator
+print('Take a number between 1 to 4')
+print('choose + for addition')
+print('choose - for subtraction')
+print('choose * for multiplication')
+print('choose / for divison')
+a = int(input('enter the first nbumber:'))
+b = int(input('enter the second number:'))
+ch = input('enter your choice:')
+if ch == '+':
+    print('the sum of two numbers is ', a+b)
+elif ch == '-':
+    print('the difference of two numbers is ', a-b)
+elif ch == '*':
+    print('the product of two numbers is' ,a*b)
+elif ch == '/':
+    print('the divison of two numbers is ' ,a/b)
+  
+else:
+    print('invalid choice')
